@@ -127,7 +127,7 @@ void change(int** matrix, int size1, int size2)
     std::cout << std::endl << "The changed value is:";
     std::cin >> value;
     
-    if ( row <= size1 && column <= size2 && row >= 1 && column >= row)
+    if ( row <= size1 && column <= size2 && row >= 1 && column >= 1)
     {
         
         (*((*(matrix + row - 1)) + column - 1)) = value;
